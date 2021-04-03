@@ -3,11 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
-}
-
-a {
-  text-decoration: none;
 }
 
 /*ヘッダー*/
@@ -27,6 +22,8 @@ header .heading {
   text-align: center; /*テキスト位置：中央*/
   padding: 15px 0;
   margin: 0 auto;
+  border-bottom: 1px solid gray; /*ナビ領域の下に1pxの線*/
+  border-top: 1px solid gray; /*ナビ領域の上に1pxの線*/
 }
 
 .nav-list-item {
@@ -41,7 +38,7 @@ header .heading {
   display: flex; /*Flexboxの利用*/
   flex-wrap: wrap; /*アイテムの折り返し*/
   justify-content: center; /*子要素の横並び・中央寄せ*/
-  margin: 0 auto; /*中央寄せ(左右に余白がないとできない)*/
+  margin: 50px auto;
 }
 
 .square1 {
