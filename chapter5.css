@@ -1,0 +1,130 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*ヘッダー*/
+header {
+  width: 100%; /*横幅100%*/
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center; /*テキスト位置：中央*/
+}
+
+header .heading {
+  /*headerタグ内のheadingクラスにのみ反映される*/
+  font-size: 32px; /*フォントサイズ32px*/
+}
+
+.nav-list {
+  text-align: center; /*テキスト位置：中央*/
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none; /*箇条書きリスト：デフォルト*/
+  display: inline-block; /*要素の表示形式：インラインブロック*/
+  margin: 0 20px;
+}
+
+/*メイン*/
+.main {
+  width: 800px; /*横幅800px*/
+  display: flex; /*Flexboxの利用*/
+  flex-wrap: wrap; /*アイテムの折り返し*/
+  justify-content: center; /*子要素の横並び・中央寄せ*/
+  margin: 0 auto; /*中央寄せ(左右に余白がないとできない)*/
+}
+
+.square1 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #e6ffe9;
+}
+
+.square2 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #cbffd3;
+}
+
+.square3 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #aeffd3;
+}
+
+.square4 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #93ffab;
+}
+
+.square5 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #f3ffd8;
+}
+
+.square6 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #edffbe;
+}
+
+.square7 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #e9ffa5;
+}
+
+.square8 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #e4ff8d;
+}
+
+.square9 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #d9e5ff;
+}
+
+.square10 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #bad3ff;
+}
+
+.square11 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #a4c6ff;
+}
+
+.square12 {
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #8eb8ff;
+}
+
+/*フッター*/
+footer {
+  width: 100%; /*横幅100%*/
+  height: 120px; /*高さ120px*/
+  text-align: center; /*テキスト位置：中央*/
+  line-height: 120px; /*テキスト位置：上下に中央*/
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
